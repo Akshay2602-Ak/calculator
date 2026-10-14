@@ -1,5 +1,5 @@
 
-const API_URL = "http://3.110.88.184";
+const API_URL = "https://calculator-api.takshaykumar26022004.workers.dev";
 
 const calculateButton = document.getElementById("calculate");
 const resultElement = document.getElementById("result");
@@ -26,7 +26,7 @@ calculateButton.addEventListener("click", async () => {
   resultElement.textContent = "Calculating...";
 
   try {
-    const response = await fetch(`${API_URL}/calculate`, {
+    const response = await fetch(`${API_URL}/api/calculate`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
