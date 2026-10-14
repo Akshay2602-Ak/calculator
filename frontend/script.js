@@ -1,5 +1,5 @@
 
-const API_URL = "http://localhost:3000";
+const API_URL = "http://3.110.88.184";
 
 const calculateButton = document.getElementById("calculate");
 const resultElement = document.getElementById("result");
