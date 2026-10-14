@@ -61,6 +61,6 @@ app.post("/calculate", (req, res) => {
   res.json({ result });
 });
 
-app.listen(PORT, "0.0.0.0", () => {
+app.listen(PORT, "127.0.0.1", () => {
   console.log(`Calculator API listening on port ${PORT}`);
 });
