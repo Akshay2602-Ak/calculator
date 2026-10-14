@@ -1,5 +1,5 @@
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://calculator.takshaykumar26022004.workers.dev/";
 
 const calculateButton = document.getElementById("calculate");
 const resultElement = document.getElementById("result");
