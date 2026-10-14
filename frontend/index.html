@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="calculator">
+    <h1>Calculator</h1>
+
+    <label for="num1">First number</label>
+    <input id="num1" type="number" step="any" placeholder="Enter first number">
+
+    <label for="operation">Operation</label>
+    <select id="operation">
+      <option value="add">Addition (+)</option>
+      <option value="subtract">Subtraction (−)</option>
+      <option value="multiply">Multiplication (×)</option>
+      <option value="divide">Division (÷)</option>
+    </select>
+
+    <label for="num2">Second number</label>
+    <input id="num2" type="number" step="any" placeholder="Enter second number">
+
+    <button id="calculate">Calculate</button>
+
+    <p id="result" role="status" aria-live="polite">Result will appear here.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
